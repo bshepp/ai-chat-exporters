@@ -1,0 +1,15 @@
+# Local working data
+*.log
+*.tmp
+
+# Output (user data — do NOT commit)
+_conversations/
+output/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
