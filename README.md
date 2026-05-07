@@ -2,11 +2,9 @@
 
 PowerShell scripts to export local AI chat conversations from **Claude Code**,
 **VS Code Copilot Chat**, and **Cursor** to readable Markdown, organized by
-project.
-
-Born from wanting to uninstall Cursor without losing 500+ chat sessions buried
-in a 14 GB SQLite blob store with no export UI. Now keeps a tidy local archive
-across all three tools.
+project. Useful for archiving, search, or migrating between tools — Cursor in
+particular has no built-in export and stores chats split across per-workspace
+SQLite plus a multi-GB global SQLite blob store.
 
 ## Output layout
 
